@@ -79,6 +79,59 @@ Algunos de los atributos de la etiqueta img son:
 <img src="/imagenes/perro.jpg" width="20%" height="150px" alt="Foto de perrito playero">
 <!--  Podemos modificar el tamaño o la escala de la imagen, pero se modifica con respecto al lugar donde esta (contenedor), esto quiere decir  -->
 
+<!-- Etiquetas de enlace <a>
 
+
+    Permiten la navegacion por medio de hipervinculos (links) que realizan la conexion y referencias otros archivos o paginas web, ya sea dentro de la misma aplicacion o de forma externa.
+
+    atributos de la etiqueta
+
+    - href: sirve para definer la ubicacion del elemento a donde nos vamos a enlazar
+
+    - target: definir como se abre ese elemento
+        - misma ventana
+        - ventana adicional
+
+-->
+<a href="https://www.google.com" target="_parent">  Este enlace te lleva a Google</a>
+
+<a href="/imagenes/perro.jpg" target="_blank" title="Link de un perrito"> Descarga perrito playero</a>
+
+<!-- 
+
+    src (source): incrustar un recurso (pegamos en el documento)
+    href (referencia): existe un enlace que nos comunica a ese elemento, pero que no necesariamente incrusta el elemento.
+
+ -->
+ <!-- Etiquetas para listas ordenadas y desordenadas
+
+
+Sirven para crear listas ordenadas (numeros, letras, numeros romanos) y listas desordenadas (no siguen un orden y se usan bullets o figuritas para ordenar los elementos.)
+ -->
+
+ <h3>Listas ordenadas</h3>
+ <ol>
+    <li>Taquito de chicharron</li>
+    <li>Taquito de adobada</li>
+    <li>Taquito de guisado
+        <ul>
+            <li>taco de cochinita</li>
+            <li>taco de alambre</li>
+        </ul>
+    </li>
+    <li>Taquito de carnitas</li>
+    <li>Taquito de alambre</li>
+    
+ </ol>
+ <h3>Listas desordenadas</h3>
+ <ul style="list-style-type: circle;">
+    <li>Lavar trastes</li>
+    <li>Lavar ropa</li>
+    <li>dormir</li>
+    <ol>
+        <li>otra lista</li>
+
+    </ol>
+ </ul>
 </body>
 </html>
